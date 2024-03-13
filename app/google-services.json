@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "932245428281",
+    "firebase_url": "https://project-ace89-default-rtdb.firebaseio.com",
+    "project_id": "project-ace89",
+    "storage_bucket": "project-ace89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932245428281:android:bd93298cb9381412edd5e8",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_a_zknXbqJiT742tD5fGY5qp39nE0J3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

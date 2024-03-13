@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chkk"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="357dp"
+        android:layout_height="636dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#80FFB6C1">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350dp"
+            android:layout_height="634dp">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="336dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="212dp"
+                android:fontFamily="@font/delicake"
+                android:text="name"
+                android:textAlignment="center"
+                android:textColor="@color/maroon"
+                android:textSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="335dp"
+                android:layout_height="117dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/delicake"
+                android:text="description"
+                android:textColor="@color/maroon"
+                android:textSize="28dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="153dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/delicake"
+                android:text="type"
+                android:textColor="@color/maroon"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.081"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="164dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/delicake"
+                android:text="Price"
+                android:textColor="@color/maroon"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.962"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description" />
+
+            <Button
+                android:id="@+id/cartButton"
+                android:layout_width="154dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="48dp"
+                android:backgroundTint="@color/maroon"
+                android:text="Add to Cart"
+                app:layout_constraintEnd_toStartOf="@+id/backButton"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/type" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="132dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="36dp"
+                android:backgroundTint="@color/maroon"
+                android:text="Go Back"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/price"
+                app:layout_constraintVertical_bias="0.842" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="355dp"
+                android:layout_height="203dp"
+                app:layout_constraintBottom_toTopOf="@+id/name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.262"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
